@@ -1,5 +1,6 @@
 # Pynq-Z2_7Seg
 Seven Segment Display VHDL code implementation in FPGA PL logic. 
+</br>
 4-bit LED display of corresponding hexa decmial value in PS logic. 
 
 ## Tools
