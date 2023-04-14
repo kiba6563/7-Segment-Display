@@ -1,11 +1,10 @@
-# Pynq-Z2_7Seg
-Seven Segment Display VHDL code implementation in FPGA PL logic. 
-</br>
-4-bit LED display of corresponding hexa decmial value in PS logic. 
+# 7-Segment 1Digit Display
+A PL-PS logic implementation of a decimal number in a 7-Segment display and binary numbers on LEDs. PL side of the logic is implemented by the VHDL code that displays decimal number on 1Digit 7-Segment. On-board 4-bit LED displays the corresponding binary value. This is the PS logic implemented by the FPGA SoC. 
 
 ## Tools
 <li> Vivado 2022.2 </li>
 <li> Vitis IDE </li>
+<li> Pynq-Z2 FPGA board </li>
 
 ## Schematic Diagram
 ![Capture](https://user-images.githubusercontent.com/127403893/227696227-9f1d4e49-a010-4b49-ae1d-f2d6f14f0214.JPG)
