@@ -1,5 +1,5 @@
 # 7-Segment 1Digit Display
-A PL-PS logic implementation of a decimal number in a 7-Segment display and binary numbers on LEDs. PL side of the logic is implemented by the VHDL code that displays decimal number on 1Digit 7-Segment. On-board 4-bit LED displays the corresponding binary value. This is the PS logic implemented by the FPGA SoC. 
+A PL-PS logic implementation of a decimal number in a 7-Segment display and binary numbers on LEDs. PL side of the logic is implemented by the VHDL code that displays decimal number on 1Digit 7-Segment. The PS logic, implemented by the FPGA SoC, controls the on-board 4-bit LEDs that displays corresponding binary value. 
 
 ## Tools
 <li> Vivado 2022.2 </li>
