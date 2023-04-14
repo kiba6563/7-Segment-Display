@@ -1,2 +1,2 @@
 # Driving 7-Segment with FPGA
-Seven Segment Display VHDL code implementation in FPGA PL logic. 
+This repository contains code for the Seven Segment Displays and its implementation on the FPGA development board. 
