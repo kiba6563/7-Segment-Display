@@ -1,5 +1,5 @@
 # 7-Segment 3Digit Display
-Binary counter 
+VHDL BCD counter with reset and count enable, counting 000 to 999, that drives 3 seven segment displays on Altera DE10-Lite FPGA board.
 
 ## Tools
 <li> Quartus Prime Lite Edition 18.1.0 </li>
