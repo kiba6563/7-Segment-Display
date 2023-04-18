@@ -1,16 +1,12 @@
-# 7-Segment 1Digit Display
-A PL-PS logic implementation of a decimal number in a 7-Segment display and binary numbers on LEDs. PL side of the logic is implemented by the VHDL code that displays decimal number on 1Digit 7-Segment. The PS logic, implemented by the FPGA SoC, controls the on-board 4-bit LEDs that displays corresponding binary value. 
+# 7-Segment 3Digit Display
+Binary counter 
 
 ## Tools
-<li> Vivado 2022.2 </li>
-<li> Vitis IDE </li>
-<li> Pynq-Z2 FPGA board </li>
+<li> Quartus Prime Lite Edition 18.1.0 </li>
+<li> DE10-Lite FPGA Board </li>
 
-## Schematic Diagram
-![Capture](https://user-images.githubusercontent.com/127403893/227696227-9f1d4e49-a010-4b49-ae1d-f2d6f14f0214.JPG)
+## Simulation
+![Capture](https://user-images.githubusercontent.com/127403893/232742616-60628b9d-2ee4-4844-adf6-f017b84cf3ac.JPG)
 
-## Zynq SoC Block Diagram
-![Capture1](https://user-images.githubusercontent.com/127403893/227696239-9fc25921-205e-47f6-a946-b9c2002a47e1.JPG)
-
-## PL-PS Implementation on Pynq-Z2
-![Media_230325_102632](https://user-images.githubusercontent.com/127403893/227697108-16021946-1bbd-40b3-98d0-0a29604fb561.gif)
+## Implementation
+![Media_230418_122134](https://user-images.githubusercontent.com/127403893/232742790-e81abc28-3ce4-4f22-aac8-6966f78a2845.gif)
