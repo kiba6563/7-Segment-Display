@@ -29,9 +29,9 @@ architecture Behavioral of top_3Disp_7Seg_tb is
                 SYS_CLK     :   in std_logic;
                 SYS_RESET   :   in std_logic;
                 COUNT_EN    :   in std_logic;
-                HEX0   		 :   out std_logic_vector(7 downto 0);
-					 HEX1   		 :   out std_logic_vector(7 downto 0);
-					 HEX2			 :   out std_logic_vector(7 downto 0)
+                HEX0   	    :   out std_logic_vector(7 downto 0);
+		HEX1   	    :   out std_logic_vector(7 downto 0);
+		HEX2	    :   out std_logic_vector(7 downto 0)
              );
     end component;
 
@@ -51,9 +51,9 @@ architecture Behavioral of top_3Disp_7Seg_tb is
                 SLOW_CLK    :   in std_logic;
                 SYS_RESET   :   in std_logic;
                 COUNT_EN    :   in std_logic;
-                HEX0   		 :   out std_logic_vector(7 downto 0);
-					 HEX1   		 :   out std_logic_vector(7 downto 0);
-					 HEX2   		 :   out std_logic_vector(7 downto 0)
+                HEX0   	    :   out std_logic_vector(7 downto 0);
+		HEX1   	    :   out std_logic_vector(7 downto 0);
+		HEX2   	    :   out std_logic_vector(7 downto 0)
              );
     end component;
 
@@ -62,8 +62,8 @@ architecture Behavioral of top_3Disp_7Seg_tb is
     signal SYS_RESET_tb    :   std_logic;
     signal COUNT_EN_tb     :   std_logic;
     signal HEX0_tb         :   std_logic_vector(7 downto 0);
-	 signal HEX1_tb         :   std_logic_vector(7 downto 0);
-	 signal HEX2_tb         :   std_logic_vector(7 downto 0);
+    signal HEX1_tb         :   std_logic_vector(7 downto 0);
+    signal HEX2_tb         :   std_logic_vector(7 downto 0);
 
     -- constants
     constant    T:  time    :=  8ns; -- clock period
@@ -77,8 +77,8 @@ begin
                 SYS_RESET   =>  SYS_RESET_tb,
                 COUNT_EN    =>  COUNT_EN_tb,
                 HEX0        =>  HEX0_tb,
-					 HEX1			 =>  HEX1_tb,
-					 HEX2			 =>  HEX2_tb
+		HEX1	    =>  HEX1_tb,
+		 HEX2	    =>  HEX2_tb
                 );
    
     -- Clock generation
