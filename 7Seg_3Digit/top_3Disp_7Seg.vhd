@@ -24,9 +24,9 @@ entity top_3Disp_7Seg is
             SYS_CLK     :   in std_logic;    						-- System Clock, 50Mhz                   
             SYS_RESET   :   in std_logic;    						-- Active LOW Reset. Push Button KEY0   
             COUNT_EN    :   in std_logic;    						-- Count Enable. Slide Switch SW0
-            HEX0   		:   out std_logic_vector(7 downto 0);  -- 7Segment HEX0
-				HEX1			:	 out std_logic_vector(7 downto 0);  -- 7Segment HEX1
-				HEX2			:	 out std_logic_vector(7 downto 0)   -- 7Segment HEX2
+            HEX0   	:   out std_logic_vector(7 downto 0);  -- 7Segment HEX0
+	    HEX1	:   out std_logic_vector(7 downto 0);  -- 7Segment HEX1
+	    HEX2	:   out std_logic_vector(7 downto 0)   -- 7Segment HEX2
 				
           );
 end top_3Disp_7Seg;
@@ -51,9 +51,9 @@ architecture Behavioral of top_3Disp_7Seg is
                 SLOW_CLK    :   in std_logic;
                 SYS_RESET   :   in std_logic;
                 COUNT_EN    :   in std_logic;
-                HEX0		    :   out std_logic_vector(7 downto 0);
-					 HEX1		    :   out std_logic_vector(7 downto 0);
-					 HEX2		    :   out std_logic_vector(7 downto 0)
+                HEX0	    :   out std_logic_vector(7 downto 0);
+		HEX1	    :   out std_logic_vector(7 downto 0);
+		HEX2	    :   out std_logic_vector(7 downto 0)
              );
     end component count_3disp;
     
@@ -76,9 +76,9 @@ begin
                     SLOW_CLK    =>  SLOW_CLK,
                     SYS_RESET   =>  SYS_RESET,
                     COUNT_EN    =>  COUNT_EN,
-                    HEX0   	  =>  HEX0,
-						  HEX1   	  =>  HEX1,
-						  HEX2   	  =>  HEX2
+                    HEX0   	=>  HEX0,
+		    HEX1   	=>  HEX1,
+		    HEX2   	=>  HEX2
                   );
     
 end Behavioral;
