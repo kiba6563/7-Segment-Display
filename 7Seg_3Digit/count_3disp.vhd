@@ -26,9 +26,9 @@ entity count_3disp is
                 SLOW_CLK    :   in std_logic;
                 SYS_RESET   :   in std_logic;
                 COUNT_EN    :   in std_logic;
-					 HEX0			 :   out std_logic_vector(7 downto 0);
-					 HEX1		    :   out std_logic_vector(7 downto 0);
-					 HEX2		    :   out std_logic_vector(7 downto 0)
+		HEX0	    :   out std_logic_vector(7 downto 0);
+		HEX1	    :   out std_logic_vector(7 downto 0);
+		HEX2	    :   out std_logic_vector(7 downto 0)
             );
 end count_3disp;
 ----------------------------------------------------------------------------------
@@ -41,9 +41,9 @@ architecture Behavioral of count_3disp is
     signal digit1    :   std_logic_vector(3 downto 0) := "0000";
     signal digit2    :   std_logic_vector(3 downto 0) := "0000";
 	 
-	 --Constants
-	 constant ZERO		:	 std_logic_vector(3 downto 0) := "0000";
-	 constant NINE		:	 std_logic_vector(3 downto 0) := "1001";
+     --Constants
+     constant ZERO		:	 std_logic_vector(3 downto 0) := "0000";
+     constant NINE		:	 std_logic_vector(3 downto 0) := "1001";
     
 begin
 
